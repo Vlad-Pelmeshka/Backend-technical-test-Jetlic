@@ -6,7 +6,7 @@ The program does not require configuration. You need to run only from the server
 
 **Example for incoming data (AJAX):**
 
-{
+<pre>{
   "items": {
     "42": {
       "currency": "EUR",
@@ -35,10 +35,10 @@ The program does not require configuration. You need to run only from the server
     },
   },
   "checkoutCurrency": "EUR"
-}
+}</pre>
 
-**and result (AJAX):**
-{
+**Result (AJAX):**
+<pre>{
   "checkoutPrice": 112.39,
   "checkoutCurrency": "EUR"
-}
+}</pre>
