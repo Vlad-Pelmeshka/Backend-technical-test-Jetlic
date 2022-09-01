@@ -51,8 +51,8 @@
           type: 'POST',
           dataType: 'json',
           data: {
-            'data'    : encode_data // correct result
-            //'data'    : 'hello'   // uncorrect result
+            'data'    : encode_data // return correct result
+            //'data'    : 'hello'   // return uncorrect result
           },success: function(data) {
             console.log(data);
             // return result on screen
